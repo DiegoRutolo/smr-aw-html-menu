@@ -33,6 +33,7 @@ ul.horizontal > li {
 /* Aspecto general del menu */
 .menu li {
 	border: 2px solid black;
+	border-radius: 15%;
 	background-color: lavender;
 	color: black;
 	padding: 1em;
