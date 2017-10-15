@@ -1,0 +1,44 @@
+/* Estilo horizontal */
+ul.menu {
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.horizontal > li {
+	float: left;
+	display: block;
+}
+/**/
+
+/* Dropdown */
+.dd-content {
+	display: none;
+	position: absolute;
+}
+
+.dropdown:hover .dd-content {
+	display: block;
+	position: absolute;
+	margin: 16px -58px;		/* este margen depende el padding de .menu li para ajustarse a los bordes */
+}
+/**/
+
+/* Normalizar links */
+.menu a {
+	text-decoration: none;
+	color: inherit;
+}
+/**/
+
+/* Aspecto general del menu */
+.menu li {
+	border: 2px solid black;
+	background-color: lavender;
+	color: black;
+	padding: 1em;
+}
+
+.menu li:hover  {
+	background-color: navy;
+	color: lavender;
+}
